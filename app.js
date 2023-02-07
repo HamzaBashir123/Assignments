@@ -227,14 +227,14 @@ document.write(`Data type of my declared variable is number`)**/
 // Q2
 // var a =2;
 // var b = 1;
-// var result= --a - --b + ++b + b--;
-// --a; // first -1 then value print, the value of a = 1
-// --a - --b ; // a= -1+1   - -1+1  = 0 ;
-// --a - --b + ++b;
-// --a - --b + ++b + b--;
-// document.write(`a is  ${a} </br>`)
-// document.write(`b is  ${b} </br>`)
-// document.write(`result is  ${result} </br>`)
+// var result= --a - --b + ++b + b--;  // 1 - 0 + 1 + 1
+// --a; // first -1 then value print, the value of a = 0
+// --a - --b ; //  -1 - -1
+// --a - --b + ++b;   //-2 - -2 + -1;
+// --a - --b + ++b + b--;  // -3 - -2 + -1 + -1
+// document.write(`a is  ${a} </br>`) // a= -3
+// document.write(`b is  ${b} </br>`) // b = -2
+// document.write(`result is  ${result} </br>`) // resul = 3
 
 // Q3
 // var name = prompt("Enter youe full name ");
@@ -373,4 +373,180 @@ document.write(`Data type of my declared variable is number`)**/
 // document.write(`Remarks :  </br>`);
 // }
 
+// Q7
+// var secretNumber = 4;
+// var guessNumber = +prompt("Enter a number (1 to 10)");
+// if (secretNumber === guessNumber){
+//     document.write("“Bingo! Correct answer”")
+// }
+// else  if (secretNumber+1 === guessNumber){
+//     document.write("“Close enough to the correct answer”")
+// }
+// else  if (secretNumber-1 === guessNumber){
+//     document.write("“Close enough to the correct answer”")
+// }
+// else {
+//     document.write("Sorry try again!")
+// }
 
+// Q8
+
+// var userInput =+prompt("Enter a number")
+// if (userInput % 3 == 0){
+//     document.write("The number is divisible by 3!")
+// }
+// else{
+//     document.write("Sorry try again!")
+
+// }
+
+// Q9
+// var userInput = +prompt("Enter a number")
+// if (userInput % 2 == 0 ){
+//     document.write("The input is Even number")
+// }
+// else {
+//     document.write("The input is Odd number")
+
+// }
+
+// Q10
+// var userInput =+prompt("Enter a Temperature 10 to 40 degree range")
+// if (userInput >= 40){
+//     console.log("It is too hot outside.");
+// }
+// else if (userInput >= 30){
+//     console.log("The Weather today is Normal.”");
+// }
+// else if (userInput >= 20){
+//     console.log("Today’s Weather is cool.”");
+// }
+// else if(userInput >= 10){
+//     console.log("“OMG! Today’s weather is so Cool.””");
+// }
+
+// Q11
+//  var firstNumber = +prompt("Enter a first Number");
+//  var operator = prompt("Enter a operator ( either +, -, * or / )");
+//  var secondNumber = +prompt("Enter a second Number");
+//  var result;
+//  if( operator == "+"){
+//     result = firstNumber +secondNumber;
+//     console.log(result);
+    
+//  }
+// else if (operator == "-"){
+//     result = firstNumber - secondNumber;
+//     console.log(result);
+
+// }
+// else if (operator == "*"){
+//     result = firstNumber * secondNumber;
+//     console.log(result);
+
+// }
+// else if (operator == "/"){
+//     result = firstNumber / secondNumber;
+//     console.log(result);
+
+// }
+
+
+                         // Chapter 12 - 13
+                          
+// Q1 
+//  var userInput =  prompt("Enter a character")
+//  var a = userInput.charCodeAt(0);
+// if (a >= 65 && a <=90){
+//     console.log( userInput +" is a Uppercase letter");
+
+// } 
+// else if (a >= 97 && a <=122){
+//     console.log( userInput +" is a Lowercase letter");
+
+// }
+// else if (userInput>=1 && userInput<=99999999){
+//     console.log( `${userInput} is a Number`);
+
+// } 
+// else{
+//     console.log( "Only same charater insert");
+
+// }
+
+// Q2
+
+// var userInput1 = +prompt("Enter a number") ;
+// var userInput2 = +prompt("Enter another number");
+// if(userInput1 == userInput2){
+//     console.log(userInput1 +" is equal to "+ userInput2)
+// }
+// else if(userInput1 >= userInput2){
+//     console.log(userInput1 +" is larger than "+ userInput2)
+// }
+// else if(userInput1 <= userInput2){
+//     console.log(userInput1 +" is lesser than "+ userInput2)
+// }
+
+// Q3
+// var userInput1 = +prompt("Enter a number");
+// if(userInput1 == 0){
+//     console.log(userInput1 +" Number is Neutral")
+// }
+// else if(userInput1 > 0){
+//     console.log(userInput1 +" Number is Positive")
+// }
+// else if(userInput1 < 0){
+//     console.log(userInput1 +" Number is Negative")
+// }
+
+// Q4
+
+// let userInput = prompt("Write  any signal alphabet");
+// if (userInput == "a" || userInput == "e" || userInput == "i" || userInput == "o" || userInput == "u" || userInput == "A" ||userInput == "E" ||userInput == "I" ||userInput == "O" ||userInput == "U" ){
+//     alert("true")
+// } else {
+//     alert("false")
+// }
+
+// Q5
+//  var password1 = prompt(" Enter  password");
+ 
+//  if (password1 != ""){
+//    var  password2 = prompt("Please enter your password")
+//  }
+// if(password1 == password2){
+//     console.log(" Correct! The password you entered matches the original password")
+//  }
+// else{
+//     console.log("Incorrect password")
+
+// }
+// Q6
+// This if/else statement does not work. Try to fix it:
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+// document.write(greeting = "Good day");
+// }
+// else{
+//    document.write(greeting = "Good evening ");
+// }
+// Q7
+
+// var time = +prompt("Enter your time (24 hours clock format like: 1900 = 7pm.)")
+// if (time >= 0000 && time < 1200){
+//    alert("Good Morning!")
+// }
+// else if (time >= 1200 && time < 1700){
+//    alert("Good Afternoon!")
+// }
+// else if (time >= 1700 && time < 2100){
+//    alert("Good Evening!")
+// }
+// else if (time >= 2100 && time < 2400){
+//    alert("Good Night!")
+// }
+// else{
+//    alert("Soory wrong input")
+// }
