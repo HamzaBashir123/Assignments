@@ -10,16 +10,16 @@
 // Chapter 02
 // Q1
 
-var username = "Hamza123";
+//var username = "Hamza123";
 // Q2
-var myName = "Jhone Doe";
+//var myName = "Jhone Doe";
 // Q3
-var message = "Hello World";
+//var message = "Hello World";
 
 // alert(message)
 
 // Q4
-var age = "15 years old";
+//var age = "15 years old";
 
 // alert(myName)
 // alert(age)
@@ -42,7 +42,7 @@ var age = "15 years old";
 // Chapter 03
 
 // Q1
-var age = 20;
+//var age = 20;
 // alert(`I am ${age} yaers old`)
 
 // Q2
@@ -206,7 +206,7 @@ document.write(`Data type of my declared variable is number`)**/
 // document.write(`Amount if snacks per day: ${perDayAmount}</br>`);
 // document.write(`You will need ${result} ${favoriteSnack} to last you until the ripe old age of ${maxAge}</br>`);
 
-                          // Chapter 06 - 09
+// Chapter 06 - 09
 
 // Q1
 // var a = 10;
@@ -257,9 +257,8 @@ document.write(`Data type of my declared variable is number`)**/
 // document.write(
 //   `<table border=1><thead><tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th><th>Percentage</th></tr></thead><tbody><tr> <td> ${sub1} </td> <td>${totalMark}</td> <td>${obtained_sub1}</td> <td>${obtained_sub1*100/totalMark}%</td></tr><tr> <td> ${sub2} </td> <td>${totalMark}</td> <td>${obtained_sub2}</td> <td>${obtained_sub2*100/totalMark}%</td></tr> <tr> <td> ${sub3} </td> <td>${totalMark}</td> <td>${obtained_sub3}</td> <td>${obtained_sub3*100/totalMark}%</td></tr> <tr> <td></td> <td>${totalMark*3}</td> <td>${obtained_sub1+obtained_sub2+obtained_sub3}</td> <td>${(obtained_sub1+obtained_sub2+obtained_sub3)*100/(totalMark*3)}%</td></tr></tbody></table>`);
 
+// Chapter 09 - 11
 
-                         // Chapter 09 - 11
-    
 // Q1
 
 // var city_Name = prompt("Enter your city");
@@ -343,7 +342,6 @@ document.write(`Data type of my declared variable is number`)**/
 // if("car" < "cat"){
 //         alert("car is smaller than cat");
 // }
-        
 
 // Q6
 // var totalMark = 300;
@@ -433,7 +431,7 @@ document.write(`Data type of my declared variable is number`)**/
 //  if( operator == "+"){
 //     result = firstNumber +secondNumber;
 //     console.log(result);
-    
+
 //  }
 // else if (operator == "-"){
 //     result = firstNumber - secondNumber;
@@ -451,16 +449,15 @@ document.write(`Data type of my declared variable is number`)**/
 
 // }
 
+// Chapter 12 - 13
 
-                         // Chapter 12 - 13
-                          
-// Q1 
+// Q1
 //  var userInput =  prompt("Enter a character")
 //  var a = userInput.charCodeAt(0);
 // if (a >= 65 && a <=90){
 //     console.log( userInput +" is a Uppercase letter");
 
-// } 
+// }
 // else if (a >= 97 && a <=122){
 //     console.log( userInput +" is a Lowercase letter");
 
@@ -468,7 +465,7 @@ document.write(`Data type of my declared variable is number`)**/
 // else if (userInput>=1 && userInput<=99999999){
 //     console.log( `${userInput} is a Number`);
 
-// } 
+// }
 // else{
 //     console.log( "Only same charater insert");
 
@@ -511,7 +508,7 @@ document.write(`Data type of my declared variable is number`)**/
 
 // Q5
 //  var password1 = prompt(" Enter  password");
- 
+
 //  if (password1 != ""){
 //    var  password2 = prompt("Please enter your password")
 //  }
@@ -550,3 +547,202 @@ document.write(`Data type of my declared variable is number`)**/
 // else{
 //    alert("Soory wrong input")
 // }
+
+
+
+// Chapter 13 - 15
+
+
+
+// Q1-3
+// var students=['reyyab','yasir','faizan','jazim'];
+// Q4
+// var numbers = [1,4,6,34,5,34,4];
+// Q5
+// var boolean = [true,false];
+// Q6
+// var mixed = ["ejhcje",45,'hamza',true , "hello",false,34]
+
+// Q7
+
+// var qualifications = ["SSC", 'HSC', 'BCS',
+//     'BS', 'BCOM', 'MS', 'M.Phil', 'PhD'];
+//     for(a=0 ; a<qualifications.length;a++){
+// console.log(a+1+") "+qualifications[a])
+// }
+
+// Q8
+// var students = ["Yasir", "Faizan", "Jazim", "hamza"];
+// var marks = [320, 230, 480, 345];
+// for (a = 0; a < students.length; a++) {
+//   document.write(
+//     `Score of ${students[a]} is ${marks[a]}. Percentage: ${
+//       (marks[a] / 500) * 100
+//     }%</br>`
+//   );
+// }
+// Q9
+// var colorNames = ["red", "green", "blue",'pink','black'];
+// document.write(colorNames+"</br>");
+//a
+// var colorAssStart = prompt("Enter color name show start the list");
+// colorNames.unshift(colorAssStart);
+// document.write(colorNames+"</br>");
+//b
+// var colorAddEnd = prompt("Enter color name show End the list");
+// colorNames.push(colorAddEnd);
+// document.write(colorNames+"</br>");
+//c
+// var colorAddStart1 = prompt("Enter two color name show Start the list\nFirst color name insert");
+// colorNames.unshift(colorAddStart1);
+// var colorAddStart2 = prompt("Enter two color name show Start the list \nSecond color name insert");
+// colorNames.unshift(colorAddStart2);
+// document.write(colorNames+"</br>");
+//d
+// colorNames.shift();
+// document.write(colorNames+"</br>");
+//e
+// colorNames.pop();
+// document.write(colorNames+"</br>");
+//f
+// var index1 = +prompt("Enter position ");
+// var colorF = prompt("Enter color name");
+// colorNames.splice(index1-1,0, colorF);
+// document.write(colorNames+"</br>");
+//g
+// var index1 = +prompt("Enter position ");
+// var index2 = +prompt("how many colors wants to delete");
+// colorNames.splice(index1-1,index2);
+// document.write(colorNames+"</br>");
+
+// Q10
+// var score = ["320","230",'480','120']
+// document.write("input = "+score+"</br>");
+// document.write("ascending = "+score.sort());
+
+// Q11
+
+// var cities = ['karachi','lahour','islamabad','quetta','peshawar']
+// document.write(cities+"</br>");
+// document.write(cities.slice(2,5));
+
+// Q12
+
+// var arr = ['This ', ' is ', ' my ', ' cat'];
+// document.write("Array:</br>"+arr+"</br>");
+// var text = arr.join("");
+// document.write("String:</br>"+text+"</br>"); 
+
+// Q13
+
+// var queue =  ['hello','hefk','sjhdj','asdh','jgh','jkfd','aksjd']
+// document.write(queue+"</br>");
+// queue.shift();
+// document.write(queue+"</br>");
+// queue.shift();
+// document.write(queue+"</br>");
+// queue.shift();
+// document.write(queue+"</br>");
+// queue.shift();
+// document.write(queue+"</br>");
+// queue.shift();
+// document.write(queue+"</br>");
+// queue.shift();
+// document.write(queue+"</br>");
+
+// Q14
+
+// var queue =  ['hello','hefk','sjhdj','asdh','jgh','jkfd','aksjd']
+// document.write(queue+"</br>");
+// queue.pop();
+// document.write(queue+"</br>");
+// queue.pop();
+// document.write(queue+"</br>");
+// queue.pop();
+// document.write(queue+"</br>");
+// queue.pop();
+// document.write(queue+"</br>");
+// queue.pop();
+// document.write(queue+"</br>");
+// queue.pop();
+// document.write(queue+"</br>");
+
+            // Assignment 35-38
+    
+// Q1
+// function dateTime(){
+// const date =new Date();
+// document.write(date+"</br>");
+
+// dateTime();
+
+// const date_time = function() {
+//     const date =new Date();
+// document.write(date+"</br>");
+// }
+// date_time();
+
+// Q2
+function myfunction1(){
+    var firstName =prompt("Enter first name");
+    var secondName =prompt("Enter second name");
+    alert(`Hello, ${firstName} ${secondName}`)
+}
+// myfunction1();
+// Q3
+    const myfunction = function(){
+    var firstNum =Number(prompt("Enter first number")) ; 
+    var secondNum =Number( prompt("Enter second number"));
+    return firstNum+secondNum;
+}
+// console.log(myfunction());
+
+const mynewfunction = ()=>{var firstNum =Number(prompt("Enter first number")) ; 
+var secondNum =Number( prompt("Enter second number"));
+return firstNum+secondNum;}
+
+// console.log(mynewfunction());
+
+// Q4
+const myfunction2 = function(){
+    var firstNumber = +prompt("Enter a first Number");
+ var operator = prompt("Enter a operator ( either +, -, * or / )");
+ var secondNumber = +prompt("Enter a second Number");
+ var result;
+ if( operator == "+"){
+    result = firstNumber +secondNumber;
+    return result;
+    
+
+ }
+else if (operator == "-"){
+    result = firstNumber - secondNumber;
+    return result;
+
+}
+else if (operator == "*"){
+    result = firstNumber * secondNumber;
+    return result;
+
+}
+else if (operator == "/"){
+    result = firstNumber / secondNumber;
+    return result;
+
+}
+}
+// console.log(myfunction2());
+// console.log(Math.round(myfunction2()));
+// console.log(Math.ceil(myfunction2()));
+// console.log(Math.floor(myfunction2()));
+// console.log(Math.trunc(myfunction2()));
+
+// Q5
+
+const myfunction3 = (a)=>{console.log(a*a)}
+// myfunction3();
+
+// Q6
+
+const myfunction4 = (a)=>{for(var a; a=1;a--){console.log(a*a)}}
+// myfunction4(4)
