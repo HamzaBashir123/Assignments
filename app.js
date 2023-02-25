@@ -548,14 +548,12 @@ document.write(`Data type of my declared variable is number`)**/
 //    alert("Soory wrong input")
 // }
 
+// Chapter 14 - 17
 
-
-// Chapter 13 - 15
-
-
-
-// Q1-3
-// var students=['reyyab','yasir','faizan','jazim'];
+// Q1-
+// var students= [];
+// students=['reyyab','yasir','faizan','jazim'];
+// console.log(students)
 // Q4
 // var numbers = [1,4,6,34,5,34,4];
 // Q5
@@ -564,14 +562,37 @@ document.write(`Data type of my declared variable is number`)**/
 // var mixed = ["ejhcje",45,'hamza',true , "hello",false,34]
 
 // Q7
+//  var mobileNetworks = ['zong','telenor','ufone','warid']
+
+// Q8
 
 // var qualifications = ["SSC", 'HSC', 'BCS',
 //     'BS', 'BCOM', 'MS', 'M.Phil', 'PhD'];
 //     for(a=0 ; a<qualifications.length;a++){
 // console.log(a+1+") "+qualifications[a])
 // }
+// Q9
+// let topMovies =[];
+// topMovies[0]=prompt('Enter movie name');
+// topMovies[1]=prompt('Enter movie name');
+// topMovies[2]=prompt('Enter movie name');
+// topMovies[3]=prompt('Enter movie name');
+// console.log("1)"+topMovies[0]);
+// console.log("2)"+topMovies[1]);
+// console.log("3)"+topMovies[2]);
+// console.log("4)"+topMovies[3]);
+// console.log("Length of the array:"+topMovies.length);
 
-// Q8
+// Q10
+// const favoriteCars =['Audi', 'Suzuki','Toyota','Tesla'];
+// console.log(`Fovorite Cars`)
+// console.log(favoriteCars)
+// console.log(`First index of the array:${ favoriteCars.indexOf('Audi')}`)
+// console.log("Car at first index of the array:"+favoriteCars[favoriteCars.indexOf('Audi')])
+// console.log(`First index of the array:${ favoriteCars.length}`)
+// console.log("Car at first index of the array:"+favoriteCars[favoriteCars.length-1])
+
+// Q11
 // var students = ["Yasir", "Faizan", "Jazim", "hamza"];
 // var marks = [320, 230, 480, 345];
 // for (a = 0; a < students.length; a++) {
@@ -581,7 +602,7 @@ document.write(`Data type of my declared variable is number`)**/
 //     }%</br>`
 //   );
 // }
-// Q9
+// Q12
 // var colorNames = ["red", "green", "blue",'pink','black'];
 // document.write(colorNames+"</br>");
 //a
@@ -615,45 +636,49 @@ document.write(`Data type of my declared variable is number`)**/
 // colorNames.splice(index1-1,index2);
 // document.write(colorNames+"</br>");
 
-// Q10
+// Q13
 // var score = ["320","230",'480','120']
 // document.write("input = "+score+"</br>");
 // document.write("ascending = "+score.sort());
 
-// Q11
+// Q14
+// var fruits = ['strawberry', 'apple', 'orange', 'banana'];
+// console.log("Fruits list:\n"+fruits);
+// console.log("Ordered fruits list:\n"+fruits.sort())
 
+// Q15
 // var cities = ['karachi','lahour','islamabad','quetta','peshawar']
 // document.write(cities+"</br>");
 // document.write(cities.slice(2,5));
 
-// Q12
+// Q16
 
 // var arr = ['This ', ' is ', ' my ', ' cat'];
 // document.write("Array:</br>"+arr+"</br>");
 // var text = arr.join("");
-// document.write("String:</br>"+text+"</br>"); 
+// document.write("String:</br>"+text+"</br>");
 
-// Q13
-
-// var queue =  ['hello','hefk','sjhdj','asdh','jgh','jkfd','aksjd']
-// document.write(queue+"</br>");
-// queue.shift();
-// document.write(queue+"</br>");
-// queue.shift();
-// document.write(queue+"</br>");
-// queue.shift();
-// document.write(queue+"</br>");
-// queue.shift();
-// document.write(queue+"</br>");
-// queue.shift();
-// document.write(queue+"</br>");
-// queue.shift();
-// document.write(queue+"</br>");
-
-// Q14
+// Q17
 
 // var queue =  ['hello','hefk','sjhdj','asdh','jgh','jkfd','aksjd']
 // document.write(queue+"</br>");
+// queue.shift();
+// document.write(queue+"</br>");
+// queue.shift();
+// document.write(queue+"</br>");
+// queue.shift();
+// document.write(queue+"</br>");
+// queue.shift();
+// document.write(queue+"</br>");
+// queue.shift();
+// document.write(queue+"</br>");
+// queue.shift();
+// document.write(queue+"</br>");
+
+// Q18
+
+// var queue =  ['hello','hefk','sjhdj','asdh','jgh','jkfd','aksjd']
+// document.write(queue+"</br>");
 // queue.pop();
 // document.write(queue+"</br>");
 // queue.pop();
@@ -667,13 +692,153 @@ document.write(`Data type of my declared variable is number`)**/
 // queue.pop();
 // document.write(queue+"</br>");
 
-            // Assignment 35-38
+// Q19
+// document.write(`<select name="cars" >
+// <option value="volvo">Apple</option>
+// <option value="saab">Samsung</option>
+// <option value="mercedes">Motorola</option>
+// <option value="audi">Nokia</option>
+// <option value="audi">Sony</option>
+// <option value="audi">Haier</option>
+// </select>`)
+
+// Q20
+// Declare and initialize an empty multidimensional array.
+// (Array of arrays
+// var Arr=[[,[]],[],[]];
+// console.log(Arr[0])
+
+// Q21
+// Declare and initialize a multidimensional array representing
+// the following matrix:
+// var Arr=[[0,[1]],[2],[3]];
+// document.write(Arr)
+
+//  0 1 2 3
+//  1 0 1 2
+//  2 1 0 1
+
+//  Assignment 17 - 20
+// Q2  Declare and initialize a multidimensional arrayrepresenting the following matrix:
+// let array1 = ["0", "1", "2", "3"];
+// let array2 = ["1", "0", "1", "2"];
+// let array3 = ["2", "1", "0", "1"];
+// console.log(array1);
+// console.log(array2);
+// console.log(array3);
+
+// Q3
+
+// for(a=1;a<11;a++  ){
+//     console.log(a);
+// }
+
+// Q4
+
+// var input1 = +prompt ("Enter a number to show its multiplication table")
+// var input2 = +prompt ("Enter length multiplication table")
+// console.log(`multiplication table of ${input1} Length ${input2}`)
+// for (let a=1 ; a<=input2 ;a++){
+//     console.log(`${input1} x ${a} = ${input1*a}`)
+
+// }
+
+// Q5
+
+// var fruits = ['apple', 'banana', 'mango', 'orange','strawberry']
+// console.log(fruits)
+// console.log(fruits.length)
+// for(a=0;a<fruits.length;a++  ){
+
+//     console.log(`Element at index ${a} is ${fruits[a]}`)
+
+// }
+
+// Q6
+// a Counting
+// for (let a = 1;a<=15;a++ ){
+//     console.log(a);
+// }
+// b  Reverse counting
+// for (let a = 10;a>=1;a--){
+//     console.log(a);
+// }
+// c Even
+// for (let a =0;a<=20;a++ ){
+//     if (a%2==0){
+//     console.log(a);
+// }
+// }
+// d Odd
+// for (let a =0;a<=20;a++ ){
+//     if (a%2==1){
+//     console.log(a);
+// }
+// }
+// e Series 
+// for (let a =2000;a<=20000;a++ ){
+//     if(a%2000==0){
+//     console.log(a/1000+'k');
+// }
+// }
+
+// Q7
+// let a = ['cake', 'apple pie', 'cookie', 'chips', 'patties'];
+// let input  = prompt("Welcome to Marhaba Bakery. What do you want to order Sir/Ma'am?")
+// let flag = false;
+// let indexNumber ;
+// for(let x=0;x<a.length;x++){
+//  if(a[x].includes(input)){
+//     flag=true;
+//     indexNumber = x;
+//  }
+// }
+// console.log(indexNumber)
+// if(indexNumber>=0){
+//     console.log(`${input} is available at index ${indexNumber} in our bakery`)
+// }
+// else{
+// console.log(`We are sorry. ${input} is not available in our bakery `)
+// }
+
+
+// Q8
+// let numberArray = [24,53,78,110,91,12]
+// let maxNumber = 0
+// for(let x=0; x<numberArray.length; x++){
+//     if(maxNumber<numberArray[x])
+//     maxNumber = numberArray[x]
     
+// }
+// console.log(`The Largest number is ${maxNumber}`)
+
+// Q9
+// let numberArray = [24,53,78,110,91,12,5]
+// let maxNumber = numberArray[0]
+// for(let x=0; x<numberArray.length; x++){
+//     if(maxNumber>numberArray[x])
+//     maxNumber = numberArray[x]
+    
+// }
+// console.log(`The smallest number is ${maxNumber}`)
+// Q10
+
+// for (let a=1 ;a<=100;a++){
+//     if(a%5==0){
+//         console.log(a)
+//     }
+// }
+
+
+// Assignment 35-38
+
 // Q1
 // function dateTime(){
 // const date =new Date();
+// let dateTimeString = date.toLocaleString();
 // document.write(date+"</br>");
-
+// document.write(dateTimeString+"</br>");
+// }
 // dateTime();
 
 // const date_time = function() {
@@ -682,55 +847,54 @@ document.write(`Data type of my declared variable is number`)**/
 // }
 // date_time();
 
-// Q2
-function myfunction1(){
-    var firstName =prompt("Enter first name");
-    var secondName =prompt("Enter second name");
-    alert(`Hello, ${firstName} ${secondName}`)
-}
+// // Q2
+// function myfunction1(){
+//     var firstName =prompt("Enter first name");
+//     var secondName =prompt("Enter second name");
+//     alert(`Hello, ${firstName} ${secondName}`)
+// }
 // myfunction1();
 // Q3
-    const myfunction = function(){
-    var firstNum =Number(prompt("Enter first number")) ; 
-    var secondNum =Number( prompt("Enter second number"));
-    return firstNum+secondNum;
-}
+//     const myfunction = function(){
+//     var firstNum =Number(prompt("Enter first number")) ;
+//     var secondNum =Number( prompt("Enter second number"));
+//     return firstNum+secondNum;
+// }
 // console.log(myfunction());
 
-const mynewfunction = ()=>{var firstNum =Number(prompt("Enter first number")) ; 
-var secondNum =Number( prompt("Enter second number"));
-return firstNum+secondNum;}
+// const mynewfunction = ()=>{var firstNum =Number(prompt("Enter first number")) ;
+// var secondNum =Number( prompt("Enter second number"));
+// return firstNum+secondNum;}
 
 // console.log(mynewfunction());
 
 // Q4
-const myfunction2 = function(){
-    var firstNumber = +prompt("Enter a first Number");
- var operator = prompt("Enter a operator ( either +, -, * or / )");
- var secondNumber = +prompt("Enter a second Number");
- var result;
- if( operator == "+"){
-    result = firstNumber +secondNumber;
-    return result;
-    
+// const myfunction2 = function(){
+//     var firstNumber = +prompt("Enter a first Number");
+//  var operator = prompt("Enter a operator ( either +, -, * or / )");
+//  var secondNumber = +prompt("Enter a second Number");
+//  var result;
+//  if( operator == "+"){
+//     result = firstNumber +secondNumber;
+//     return result;
 
- }
-else if (operator == "-"){
-    result = firstNumber - secondNumber;
-    return result;
+//  }
+// else if (operator == "-"){
+//     result = firstNumber - secondNumber;
+//     return result;
 
-}
-else if (operator == "*"){
-    result = firstNumber * secondNumber;
-    return result;
+// }
+// else if (operator == "*"){
+//     result = firstNumber * secondNumber;
+//     return result;
 
-}
-else if (operator == "/"){
-    result = firstNumber / secondNumber;
-    return result;
+// }
+// else if (operator == "/"){
+//     result = firstNumber / secondNumber;
+//     return result;
 
-}
-}
+// }
+// }
 // console.log(myfunction2());
 // console.log(Math.round(myfunction2()));
 // console.log(Math.ceil(myfunction2()));
@@ -739,10 +903,98 @@ else if (operator == "/"){
 
 // Q5
 
-const myfunction3 = (a)=>{console.log(a*a)}
-// myfunction3();
+// const myfunction3 = (a)=>{console.log(a*a)}
+// // myfunction3();
 
-// Q6
+// // Q6
+// . Write a function that computes factorial of a number.
+// let result;
+// const factorial = function(n){
+//     result = n;
+//     for(let a=1; a<n; a++){
+        
+//         result *= (n-a) 
+//     }
+//     return result
+// }
+// console.log(factorial(5))
 
-const myfunction4 = (a)=>{for(var a; a=1;a--){console.log(a*a)}}
-// myfunction4(4)
+// Q7
+// function couting(){
+// var input1 =  prompt("Enter a start number");
+// var input2 = prompt("Enter a second number");
+// for (a=input1; a<=input2;a++ ){
+//     document.write(a+"</br>")
+// }
+// }
+// couting();
+
+// Q8
+
+// var base1 = +prompt('Enter a base value');
+// var perpendicular1 = +prompt('Enter a perpendicular value');
+// var Hypot  = calculateHypotenus(base1,perpendicular1)
+// function calculateHypotenus(base, perpendicular) {
+
+//       var hypoteuse = (square(base) + square(perpendicular));
+//       return hypoteuse;
+//       function square(number) {
+//         return number * number
+//     }
+//   }
+// console.log(Hypot);
+// var hypoSquare = (base1+perpendicular1)*(base1+perpendicular1)
+// console.log(hypoSquare)
+
+// Q8
+// var base1 = +prompt('Enter a base value');
+// var perpendicular1 = +prompt('Enter a perpendicular value');
+
+// function calculateHypotenuse(base1,perpendicular1){
+//     var Hypotenuse =  calculateSquare(base1) + calculateSquare(perpendicular1)
+//     return "Rigth angle triangle answer is \n"+Hypotenuse;
+//     function  calculateSquare(input){
+//         return input*input;
+
+//     }
+
+
+// }
+// console.log(calculateHypotenuse(base1,perpendicular1))
+
+
+// Q9
+//i. Arguments as value
+// const argumentAsValue = (width,height)=>{ return width*height}
+// console.log(argumentAsValue(5,6))
+// Arguments as variables
+// var width  = +prompt("Enter a value of width ")
+// var height  = +prompt("Enter a value of height ")
+// const argumentAsVariable = (width,height)=>{ return width*height}
+// console.log(argumentAsVariable(width,height))
+
+// 10
+
+var input =  prompt("Enter a Value to check word is  palindrome or not") || "madam" ;
+ console.log(input[0])
+ console.log( Math.floor(input.length/2))
+function myfunction(){
+for(var i=0; i<=Math.floor((input.length/2)-1);i++){
+
+  if (input[i]==input[input.length-(i+1)]){
+    console.log("palindrome")
+
+  }
+  else{
+     console.log("Sorry")
+  }
+
+}
+}
+myfunction()
+
+// Q11
+
+// var input =prompt("Enter paragraph atleast one line");
+// var capitalFirstWord = capitalizeFirstLetter(input);
+// console.log(capitalFirstWord)
