@@ -330,7 +330,7 @@ document.write(`Data type of my declared variable is number`)**/
 // if (totalCost === laborCost + materialCost){
 // alert("The cost equals"); //true
 // }
-// ////////////////////////////////////////////// Confusion
+// ////////////////////////////////////////////// 
 
 // if (true){
 //     alert("True");
@@ -338,7 +338,7 @@ document.write(`Data type of my declared variable is number`)**/
 // if (false){
 //  alert("False");
 // }
-//  //////////////////////////////  Confusion
+//  //////////////////////////////  
 // if("car" < "cat"){
 //         alert("car is smaller than cat");
 // }
@@ -552,6 +552,7 @@ document.write(`Data type of my declared variable is number`)**/
 
 // Q1-
 // var students= [];
+// Q2-Q3
 // students=['reyyab','yasir','faizan','jazim'];
 // console.log(students)
 // Q4
@@ -718,7 +719,10 @@ document.write(`Data type of my declared variable is number`)**/
 //  1 0 1 2
 //  2 1 0 1
 
+
 //  Assignment 17 - 20
+
+
 // Q2  Declare and initialize a multidimensional arrayrepresenting the following matrix:
 // let array1 = ["0", "1", "2", "3"];
 // let array2 = ["1", "0", "1", "2"];
@@ -975,26 +979,63 @@ document.write(`Data type of my declared variable is number`)**/
 
 // 10
 
-var input =  prompt("Enter a Value to check word is  palindrome or not") || "madam" ;
- console.log(input[0])
- console.log( Math.floor(input.length/2))
-function myfunction(){
-for(var i=0; i<=Math.floor((input.length/2)-1);i++){
+// var input =  prompt("Enter a Value to check word is  palindrome or not") || "madam" ;
+//  console.log(input[0])
+//  console.log( Math.floor(input.length/2))
+// var numberCollect;
+// function myfunction(){
+// for(var i=0; i<=Math.floor((input.length/2)-1);i++){
 
-  if (input[i]==input[input.length-(i+1)]){
-    console.log("palindrome")
+//   if (input[i]==input[input.length-(i+1)]){
+//     numberCollect = i;
+//   }
+ 
 
-  }
-  else{
-     console.log("Sorry")
-  }
+// }
+// if(numberCollect>=0){
+//   console.log("This word are palindrome")
+  
+// }
+// else{
+//   console.log("This word are not palindrome")
 
-}
-}
-myfunction()
+// }
+// }
+// myfunction()
 
 // Q11
 
-// var input =prompt("Enter paragraph atleast one line");
-// var capitalFirstWord = capitalizeFirstLetter(input);
-// console.log(capitalFirstWord)
+// var input =prompt("Enter a input");
+// function capitalFirstLetter(str){
+//   console.log(str);
+//   var wordSplit = str.split(" ");
+//   console.log(wordSplit);
+//   for(var i=0; i<wordSplit.length;i++){
+//     var word = wordSplit[i];
+//     wordSplit[i] = word.charAt(0).toUpperCase() + word.slice(1);
+
+//     return wordSplit.join(" ");
+//   } 
+  
+// }
+// console.log(capitalFirstLetter(input || "ashdjahsd asdhyahsyd yas"))
+
+// Q12
+// var input =prompt("Enter a input");
+// function capitalFirstLetter(str){
+//   console.log(str);
+//   var wordSplit = str.split(" ");
+//   console.log(wordSplit);
+//   var maxLength =wordSplit[0];
+//   for(var i=1; i<wordSplit.length;i++){
+//     var word = wordSplit[i];
+//     if(maxLength.length< word.length){
+//       maxLength=word;
+      
+//     }
+    
+//     // return wordSplit.join(" ");
+//   } 
+//   return maxLength
+// }
+// console.log(capitalFirstLetter( input||"ashdjahsd asdhyahsyd yas fffffffff"))
