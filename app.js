@@ -834,6 +834,74 @@ document.write(`Data type of my declared variable is number`)**/
 // }
 
 
+//  Assignment 21 - 25
+
+// Q1
+
+// var firstName  = prompt("Enter your First name");
+// var LastName  = prompt("Enter your Last name");
+// let fullName = `Assalam-o-Alaikum ${firstName} ${LastName}`
+// console.log(fullName)
+
+// Q2
+// var userInput = prompt('Enter your favorite mobile model');
+// console.log(`Length of string: ${userInput.length}`)
+
+
+// Samsung Galazxy S6 Edge Plus
+
+// Q3
+
+// var index = "Pakistani";
+// var result = index.indexOf("n")
+// console.log("Index of 'n' "+ result)
+
+
+// Q4
+
+// var index = "Hello World";
+// var result = index.lastIndexOf("l")
+// console.log("Index of 'n' "+ result)
+
+// Q5
+
+
+// var index = "Pakistani";
+// var result = index.charAt(3);
+// console.log("Index of '3' "+ result)
+
+
+// Q6
+
+// var firstName = "Muhammad";
+// var lastName = "Hamza";
+// console.log(`Hello ${firstName} ${lastName}`)
+
+// Q7
+// var cityName  = "Hyderabad"
+// var inputUser = prompt('Enter alphabet in the word od Hyderabad')
+// var inputUser1 = prompt('Enter a changed alphabet in the word od Hyderabad')
+// console.log(`After replacement: ${cityName.replace(inputUser , inputUser1)}`)
+
+// Q8
+
+// var input = "Ali and Sami are best friends. They play cricket and football together."
+// console.log(`After replacement: ${input.replace(/and/g, '&')}`)
+
+//  Q9
+
+// var numberInput  = '472'
+// console.log('value: '+numberInput);
+// console.log("Tyoe: "+typeof(numberInput));
+// var convertNumber = parseInt(numberInput)
+// console.log('value: '+numberInput);
+// console.log("Tyoe: "+typeof(convertNumber));
+
+
+
+
+
+
 // Assignment 35-38
 
 // Q1
