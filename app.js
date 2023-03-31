@@ -897,6 +897,54 @@ document.write(`Data type of my declared variable is number`)**/
 // console.log('value: '+numberInput);
 // console.log("Tyoe: "+typeof(convertNumber));
 
+// Q10
+
+// var userInput = prompt("Enter Url format  (www.facebook.com / www.yahoo.com )");
+// var domain = userInput.indexOf('.')
+// var domain2 = userInput.slice(domain+1)
+// console.log(domain2)
+
+// let margin = "c1210pxdvsd1254"
+// let x= +margin
+// console.log(parseInt(x))
+// console.log(typeof(x))
+
+
+// Q11
+// var userInput = prompt('Enter a input (do you want )');
+// console.log(userInput.toUpperCase());
+
+// Q12
+// var userInput = prompt('Enter a input (do you want )');
+// console.log(userInput.toLowerCase());
+
+
+// Q13
+var userInput =  "helLo worlD of";
+var words  =  userInput.split(" ");
+console.log(words)
+for(var a = 0 ; a<userInput.length; a++){
+     words[a] =words[a].slice(0,1).toLocaleUpperCase() + words[a].slice(1).toLocaleLowerCase();
+    console.log(words[a])
+    
+   
+}
+words.join(" ");
+console.log(words)
+
+
+// words.map((word) => { 
+//     return word[0].toUpperCase() + word.substring(1); 
+// }).join(" ");
+
+
+
+
+
+ 
+
+
+
 
 
 
