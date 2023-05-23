@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.img{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    cursor: pointer;
+    
+}
+.main{
+    display: grid;
+    height:100vh;
+    place-items: center;
+    align-items: center;
+    border: 2px solid grey;
+
+}

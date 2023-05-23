@@ -919,18 +919,18 @@ document.write(`Data type of my declared variable is number`)**/
 // console.log(userInput.toLowerCase());
 
 
-// Q13
-var userInput =  "helLo worlD of";
-var words  =  userInput.split(" ");
-console.log(words)
-for(var a = 0 ; a<userInput.length; a++){
-     words[a] =words[a].slice(0,1).toLocaleUpperCase() + words[a].slice(1).toLocaleLowerCase();
-    console.log(words[a])
+// // Q13
+// var userInput =  "helLo worlD of";
+// var words  =  userInput.split(" ");
+// console.log(words)
+// for(var a = 0 ; a<userInput.length; a++){
+//      words[a] =words[a].slice(0,1).toLocaleUpperCase() + words[a].slice(1).toLocaleLowerCase();
+//     console.log(words[a])
     
    
-}
-words.join(" ");
-console.log(words)
+// }
+// words.join(" ");
+// console.log(words)
 
 
 // words.map((word) => { 
@@ -1084,10 +1084,10 @@ console.log(words)
 
 
 // Q9
-//i. Arguments as value
+// i. Arguments as value
 // const argumentAsValue = (width,height)=>{ return width*height}
 // console.log(argumentAsValue(5,6))
-// Arguments as variables
+// // Arguments as variables
 // var width  = +prompt("Enter a value of width ")
 // var height  = +prompt("Enter a value of height ")
 // const argumentAsVariable = (width,height)=>{ return width*height}
@@ -1155,3 +1155,270 @@ console.log(words)
 //   return maxLength
 // }
 // console.log(capitalFirstLetter( input||"ashdjahsd asdhyahsyd yas fffffffff"))
+
+
+// Q13
+//  const letterCount = (str , letter)=>{
+//     let count = 0
+//     for (let i = 0; i < str.length; i++) {
+//         if(str[i] === letter ){
+//             count ++ ;
+//         }
+        
+//     }
+//     return "leter = " + count
+
+//  }
+
+// console.log(letterCount("hello world",'o'))
+
+
+
+// 14. The Geometrizer
+// Create 2 functions that calculate properties of a circle, using
+// the definitions here.
+// Create a function called calcCircumference:
+// • Pass the radius to the function.
+// • Calculate the circumference based on the radius, and output
+// "The circumference is NN".
+// Create a function called calcArea:
+// • Pass the radius to the function.
+// • Calculate the area based on the radius, and output "The area
+// is NN".
+// Circumference of circle = 2πr
+// Area of circle = πr2
+
+// Answer
+
+// var radius = 10
+// var pi  = 3.142;
+
+// function calcCircumference(radius){
+//     const result = 2*pi*radius 
+//     return result 
+
+// }
+
+// function calcArea(radius){
+//     const result = pi*Math.pow(radius,2)
+//     return result 
+
+// }
+
+// console.log(calcCircumference(radius))
+// console.log(calcArea(radius))
+
+
+
+// Assignment 43 - 48  
+
+// const main =  document.querySelector('.main')
+
+
+//  Q1
+// const head = document.createElement('a')
+// head.setAttribute('href','#')
+// const text = document.createTextNode('photopea')
+// head.appendChild(text)
+// // main.innerHTML = '';
+// main.appendChild(head);
+// head.addEventListener('click',()=>{
+//     alert("Hello Sir")
+// } )
+
+//  Q2
+
+// let imges = ['https://m.media-amazon.com/images/I/51nb43yXOFL.jpg','https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61SEbQm6zUL.jpg','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkh9zT_B6o2I1EXKPiiWLV27jALzDq7anl63baEt1ldoIISvWvDIyLDfNTWZJ7FAAhgEg&usqp=CAU','https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-pro-5.jpg']
+
+// for (let i = 0; i < imges.length; i++) {
+//     const head = document.createElement('img')
+// head.setAttribute('src',imges[i])
+// head.setAttribute('class','img')
+// head.setAttribute('onclick','imgItem(this)')
+// main.appendChild(head);
+// }
+
+// function imgItem(item){
+//     alert('This item is added')
+// }
+
+
+//  Q3
+// const main =  document.querySelector('.main')
+
+// let input  = [{name:"john" , class: "10"},{ name: "Alice", class: "9" },{ name: "Bob", class: "11" },{ name: "Emily", class: "8" },{ name: "Peter", class: "12" },{ name: "Sara", class: "10" },{ name: "David", class: "9" },{ name: "Emma", class: "11" }, { name: "Alex", class: "8" }, { name: "Alex", class: "8" }]
+// let headingValue = ['Index', 'Name' , 'Class' ]
+// var ul =  document.createElement("ul")
+// var li =  document.createElement("li")
+
+// for (let j = 0; j < headingValue.length; j++) {
+    
+// var spanCreate =  document.createElement("span")
+// var spanValue =  document.createTextNode(headingValue[j] )
+// spanCreate.appendChild(spanValue)
+// li.appendChild(spanCreate)
+// main.appendChild(li)
+// li.style.listStyle = "none"
+// }
+
+// function create(){
+
+// for (let i = 0; i < input.length; i++) {
+//     var li1 =  document.createElement("li")
+//     var liText = document.createTextNode([i]+" "+input[i].name +" "+input[i].class+" ")
+//     let del = document.createElement('button')
+//     let delTex =  document.createTextNode('Delete')
+//     del.setAttribute('onClick', `delList(${i})`)
+//     del.appendChild(delTex)
+//     li1.appendChild(liText)
+//     li1.appendChild(del)
+//     ul.appendChild(li1)
+//     main.appendChild(ul)
+//     li1.style.listStyle = "none"
+    
+// }
+// }
+// create();
+
+// const delList =(item)=>{
+//     input.splice(item,1)
+//     ul.innerHTML = ""
+//     create()
+// }
+
+
+//  Q4
+
+// let imges = ['https://m.media-amazon.com/images/I/51nb43yXOFL.jpg','https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61SEbQm6zUL.jpg','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkh9zT_B6o2I1EXKPiiWLV27jALzDq7anl63baEt1ldoIISvWvDIyLDfNTWZJ7FAAhgEg&usqp=CAU','https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-pro-5.jpg']
+
+
+//     const head = document.createElement('img')
+// head.setAttribute('src',imges[0])
+// head.setAttribute('class','img')
+// head.setAttribute('onmouseover','imgItem(this)')
+// head.setAttribute('onmouseout','imgItemOut(this)')
+// main.appendChild(head);
+
+
+// function imgItem(item){
+//     item.src= imges[1]
+    
+// }
+
+// function imgItemOut(item){
+//     item.src= imges[0]
+    
+// }
+
+
+// Q5 
+
+// let increaseButton =  document.createElement('button')
+// let counter =  document.createElement('h1')
+// let decreaseeButton =  document.createElement('button')
+
+// let count =0;
+
+// let increaseButtonText = document.createTextNode('Increase')
+// increaseButton.appendChild(increaseButtonText)
+
+// counter.innerHTML = count ;
+
+// let decreaseButtonText = document.createTextNode('Decrease')
+// decreaseeButton.appendChild(decreaseButtonText)
+
+// main.style.display = 'flex'
+// main.style.height = '100vh'
+// main.style.justifyContent = 'center'
+// main.style.alignItems = 'center'
+
+// main.appendChild(decreaseeButton)
+// main.appendChild(counter)
+// main.appendChild(increaseButton)
+
+// increaseButton.setAttribute('onclick','increaseCount()')
+// decreaseeButton.setAttribute('onclick','decreaseCount()')
+
+
+// function increaseCount(){
+//     count++
+//     counter.innerHTML = count ;
+// }
+// function decreaseCount(){
+//     count--
+//     counter.innerHTML = count ;
+// }
+
+
+// Assignment 49 - 52  
+const main =  document.querySelector('.main')
+
+// Q1
+// function createItems(){
+// main.innerHTML=`<div class="formCreate">
+// <h1>Signup Form</h1>
+// <form>
+//   <label for="firstName">First Name:</label>
+//   <input type="text" id="firstName" required="required"><br>
+
+//   <label for="lastName">Last Name:</label>
+//   <input type="text" id="lastName" required="required"><br>
+
+//   <label for="email">Email:</label>
+//   <input type="email" id="email" required="required"><br>
+
+//   <label for="password">Password:</label>
+//   <input type="password" id="password" required="required"><br>
+
+//   <button type="button" onclick="signUp()">Sign Up</button>
+// </form>
+// </div>`
+// }
+// createItems()
+// function signUp(){
+//     let firstName =  document.getElementById('firstName')
+//     let lastName =  document.getElementById('lastName')
+//     let email =  document.getElementById('email')
+//     let password =  document.getElementById('password')
+//     let button =  document.getElementsByTagName('button')
+//     console.log(button)
+//     main.innerHTML=`   <div class="displayItems">
+//     <h3>FirstName: ${firstName.value}</h3>
+//     <h3>LastName: ${lastName.value}</h3>
+//     <h3>Email: ${email.value}</h3>
+//     <h3>Password: ${password.value}</h3>
+//     <button type="button" onclick="createItems()">Back to home page</button>
+// </div>
+// </div>`
+   
+// }
+
+
+// Q2
+
+main.innerHTML = `  <div style="width: 400px;">
+<h2>Item Title</h2><br>
+<p>Lorem paragraph</p><br>
+<div id="itemDetails" class="item-details">
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta amet iste quod impedit alias! Eius nobis quam quia, iure quod architecto iste vero dolor adipisci ipsum assumenda, nihil aliquid aut magnam obcaecati soluta deleniti eos accusantium dolores perferendis veniam maiores quae. Nisi repudiandae doloribus beatae. Sint, quaerat, beatae, adipisci architecto sapiente magnam voluptatum dolores modi ut nemo ducimus perspiciatis non laudantium est mollitia rem vitae! Atque nostrum dicta, dolorum consequatur accusamus ipsa deserunt quibusdam nesciunt aliquid facere iure. Aliquam officiis quidem, incidunt omnis quisquam necessitatibus voluptas sequi itaque fuga ullam? Eligendi assumenda corporis rem sunt? Alias incidunt distinctio culpa sequi cumque quod tenetur accusamus in eveniet, magnam suscipit deleniti eos modi nemo facere unde dicta explicabo, vel minus nam! Autem est, odit, error nesciunt nobis at, rem quod inventore harum tempore nostrum. Sunt, alias eos a voluptatum rem commodi corrupti, veritatis soluta facere illum ducimus aliquam fugit officiis, deleniti tempore! Molestiae quaerat minima asperiores, provident maxime id cupiditate quod at ducimus sunt tempora quas! Aliquam harum necessitatibus, consequuntur sit minima, consequatur eligendi velit rem, cumque neque illum assumenda tempore molestias? Impedit natus harum doloribus inventore, excepturi necessitatibus dolores reprehenderit error blanditiis, veniam delectus quae. Corporis numquam delectus consectetur iusto cum.
+  </p>
+  
+</div>
+<button id="readMoreBtn" onclick="Details()">Read more</button>
+</div>`
+
+let itemdetails = document.querySelector('#itemDetails')
+let readMoreBtn = document.querySelector('#readMoreBtn')
+console.log(itemdetails)
+itemdetails.style.display = 'none'
+
+function Details(){
+    if(itemdetails.style.display === 'none'){
+        itemdetails.style.display = 'block'
+        readMoreBtn.innerHTML = 'Read less'
+    }
+    else{
+        itemdetails.style.display = 'none'
+        readMoreBtn.innerHTML = 'Read more'
+    }
+}
